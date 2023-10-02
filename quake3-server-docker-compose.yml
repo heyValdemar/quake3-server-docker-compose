@@ -48,7 +48,7 @@
 
 services:
   quake3-server:
-    image: heyValdemar/quake3-server:latest
+    image: heyvaldemar/quake3-server:latest
     volumes:
       - ./server.cfg:/quakejs/base/baseq3/server.cfg
     environment:
